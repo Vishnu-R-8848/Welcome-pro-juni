@@ -1,0 +1,223 @@
+/* this for nav */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding : 25px 100px;
+    height: 20vh;
+    background-color: black;
+    display : flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size : 4rem;
+    font-weight: 900;
+    color : #fff;
+    text-decoration: none;
+}
+
+#s6{
+    color: red;
+}
+
+#s5{
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.container ul{
+    display: flex;
+    gap : 20px;
+}
+
+.container li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.container a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: all ease-in-out 1s;
+}
+
+nav a:hover {
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+.container a:hover{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: red;
+}
+
+nav a{
+    transition: all ease-in-out 1s;
+}
+
+/* this is for main */
+
+main {
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-around;   
+}
+
+main h6{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 1rem;
+    transition: all ease-in-out 1s;
+}
+
+main h1{
+    font-size: 5rem;
+    transition: all ease-in-out 1s;
+}
+
+main h3{
+    font-size: 3rem;
+    transition: all ease-in-out 1s;
+}
+
+main p{
+    font-size: 20px;
+   letter-spacing: 3px;
+    transition: all ease-in-out 1s;
+}
+
+.aboutme{
+    display: flex;
+    justify-content: space-evenly ;
+    margin: 50px 50px;
+}
+
+.aboutme a{
+    height: 4rem;
+    font-size: 3rem;
+    font-weight: 900;
+    gap: 25px;
+    color: red;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all ease-in-out 1s;
+}
+
+#m1{
+    border: 2px solid red;
+}
+
+main footer{
+    font-size: 3rem;
+    font-weight: 900;
+    height: 300px;
+}
+
+main footer a{
+    color: red;
+    gap: 10px;
+    transition: all ease-in-out 1s;
+}
+
+/* hover items */
+
+main h1:hover{
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+main h3:hover{
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+main h6:hover{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.aboutme :hover{
+    font-size: 3.7rem;
+    font-weight: 900;
+}
+
+main footer a:hover{
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+main p:hover{
+    font-size: 21px;
+    font-weight: 300;
+}
+
+#sp{    
+    font-size: 3rem;
+    transition: all ease-in-out 1s;
+    color: red;
+} 
+
+/* this for responsive */
+@media screen and (max-width: 600px){
+    *{
+        font-size: normal;
+    }
+    body{
+        background-color: black;
+    }
+    nav,main{
+        padding : 15px 25px;
+        background-color: black;
+        display: flex;
+    }
+    nav ul{
+        flex-direction:row;
+    }
+    .logo,
+    main h1{
+        font-size: 2rem;
+    }
+    .container ul{
+        gap : 20px;
+    }
+    .container a{
+        font-size: 10px;
+    }
+    main h6{
+        font-size: 0.5rem;
+    }
+    main h3{
+        font-size: 1.5rem;
+    }
+    main p{
+        font-size: small;
+    }
+    #a1,#m1,
+    .aboutme{
+        height: 1.5rem;
+        font-size: 1rem;
+        gap: 10px;
+    }
+    footer a{
+        font-size: 2rem;
+    }
+    #sp{
+        font-size: 1rem;
+    }
+    nav a:hover {
+        display: none;
+    }
+}

@@ -1,0 +1,208 @@
+/*this is for nav*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+nav{
+    height : 20%;
+    padding : 25px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size : 4rem;
+    font-weight: 900;
+}
+
+nav #log{
+    transition: all ease-in-out 1s;
+}
+
+.container ul{
+    display : flex;
+    justify-content: center;
+    gap : 25px;
+}
+
+.container li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    font-size : 2rem;
+    color : black;
+   
+}
+
+.container a{
+    font-size: 2rem;
+    transition: all ease-in-out 1s;
+}
+
+nav a:hover{
+    font-size: 6rem;
+    font-weight: 900;
+    border-radius: 25% 10%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 4, .2);
+    text-shadow: rgb(17, 17, 17) 5px 0 13px;
+}
+
+li a:hover{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+/* this for main */
+
+main {
+    padding : 25px 100px;
+    height: 70%;
+}
+
+main h2{
+    font-size: 2rem;
+    width: 200px;
+    display: inline-block;
+    background-color: #FCF596;
+    box-shadow: 12px 12px 2px 1px #b1e8d6;
+    border-radius: 25% 10%;
+}
+
+main h1{
+    margin : 20px;
+    font-size: 2rem;
+    width: 400px;
+    display: inline-block;
+    background-color: rgb(198, 22, 234);
+    border-radius: 25% 10%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+#im,img{
+    height: 800px;
+    width : 1400px;
+    object-fit: cover;
+}
+
+main #p1{
+    letter-spacing: 2px;
+    height : 300px;
+    font-size: xx-large;
+}
+
+big a{
+    font-weight: 900;
+    color: skyblue;
+}
+
+#prr {
+    margin-top : 50px;
+    color : linear;
+    font-weight: 900;
+    font-size: 5rem;
+    color: pink;
+}
+
+.ff{
+    padding : 25px 100px;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.ff a{
+    border : 2px solid black;
+    border-radius: 25% 10%;
+    background-color: aqua;
+    width : 300px;
+    text-decoration: none;
+}
+
+footer{
+    height : 10%;
+    font-size: 5rem ;
+    font-weight: 900;
+    color: black;
+}
+
+footer a {
+    color: black;
+    transition: all ease-in-out 1s;
+}
+
+footer a:hover{
+    font-size: 6rem;
+    font-weight: 900;
+    border-radius: 25% 10%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 4, .2);
+    text-shadow: rgb(17, 17, 17) 5px 0 13px;
+}
+
+@media screen and (max-width: 600px){
+    *{
+        font-size: normal;
+    }
+    nav{
+        padding : 15px 25px;
+        display: flex;
+    }
+    nav ul{
+        flex-direction:row;
+    }
+    .logo,
+    main h1{
+        font-size: 2rem;
+    }
+    .container ul{
+        gap : 20px;
+    }
+    .container a{
+        font-size: 10px;
+    }
+    #im,img{
+        height: 400px;
+        width: 400px;
+        object-fit: cover;
+    }
+    footer a{
+        font-size: 2rem;
+    }
+    #sp{
+        font-size: 1rem;
+    }
+    main {
+        padding : 15px 20px;
+    }
+    main h1{
+        margin : 20px;
+        font-size: 1rem;
+        width: 100px;
+        display: inline-block;
+        background-color: rgb(198, 22, 234);
+        border-radius: 25% 10%;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    }
+    main #p1{
+        letter-spacing: 2px;
+        height : 400px;
+        font-size: large;
+    }
+    big a{
+        font-weight: 900;
+        color: skyblue;
+        font-size: 1.5rem;
+    }
+    #prr{
+        font-weight: 900;
+        font-size: 1.5rem;
+        color: pink;
+    }
+    nav a:hover {
+        display: none;
+    }
+}
