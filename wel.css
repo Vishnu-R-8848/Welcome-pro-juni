@@ -7,15 +7,15 @@
 }
 
 nav{
-    height : 20%;
-    padding : 25px 100px;
+    height: 20%;
+    padding: 25px 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .logo {
-    font-size : 4rem;
+    font-size: 4rem;
     font-weight: 900;
 }
 
@@ -24,9 +24,9 @@ nav #log{
 }
 
 .container ul{
-    display : flex;
+    display: flex;
     justify-content: center;
-    gap : 25px;
+    gap: 25px;
 }
 
 .container li{
@@ -35,8 +35,8 @@ nav #log{
 
 nav a{
     text-decoration: none;
-    font-size : 2rem;
-    color : black;
+    font-size: 2rem;
+    color: black;
    
 }
 
@@ -61,7 +61,7 @@ li a:hover{
 /* this for main */
 
 main {
-    padding : 25px 100px;
+    padding: 25px 100px;
     height: 70%;
 }
 
@@ -75,7 +75,7 @@ main h2{
 }
 
 main h1{
-    margin : 20px;
+    margin: 20px;
     font-size: 2rem;
     width: 400px;
     display: inline-block;
@@ -90,7 +90,7 @@ main h3{
 
 #im,img{
     height: 800px;
-    width : 1400px;
+    width: 1400px;
     object-fit: cover;
 }
 
@@ -106,29 +106,29 @@ big a{
 }
 
 #prr {
-    margin-top : 50px;
-    color : linear;
+    margin-top: 50px;
+    color: linear;
     font-weight: 900;
     font-size: 5rem;
     color: pink;
 }
 
 .ff{
-    padding : 25px 100px;
+    padding: 25px 100px;
     font-weight: 900;
     font-size: 2rem;
 }
 
 .ff a{
-    border : 2px solid black;
+    border: 2px solid black;
     border-radius: 25% 10%;
     background-color: aqua;
-    width : 300px;
+    width: 300px;
     text-decoration: none;
 }
 
 footer{
-    height : 10%;
+    height: 10%;
     font-size: 5rem ;
     font-weight: 900;
     color: black;
@@ -152,7 +152,7 @@ footer a:hover{
         font-size: normal;
     }
     nav{
-        padding : 15px 25px;
+        padding: 15px 25px;
         display: flex;
     }
     nav ul{
@@ -163,7 +163,7 @@ footer a:hover{
         font-size: 2rem;
     }
     .container ul{
-        gap : 20px;
+        gap: 20px;
     }
     .container a{
         font-size: 10px;
@@ -180,11 +180,10 @@ footer a:hover{
         font-size: 1rem;
     }
     main {
-        padding : 15px 20px;
+        padding: 15px 20px;
     }
     main #h1{
-        margin-top : 20px;
-        
+        margin-top: 20px;
     }
     main h1{
         display: inline;
@@ -196,7 +195,7 @@ footer a:hover{
     }
     main #p1{
         letter-spacing: 2px;
-        height : 400px;
+        height: 400px;
         font-size: large;
     }
     big a{
