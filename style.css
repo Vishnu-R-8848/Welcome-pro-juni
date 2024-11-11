@@ -123,7 +123,6 @@ main p{
 main footer{
     font-size: 3rem;
     font-weight: 900;
-    height: 300px;
 }
 
 main footer a{
@@ -184,7 +183,7 @@ main p:hover{
         flex-direction:row;
     }
     .logo{
-         font-size: 1rem;
+         font-size: 1.2rem;
     }
     main h1{
         font-size: 2rem;
