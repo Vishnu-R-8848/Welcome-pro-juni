@@ -158,12 +158,11 @@ footer a:hover{
     nav ul{
         flex-direction:row;
     }
-    .logo,
-    main h1{
-        font-size: 2rem;
+    .logo{
+         font-size: 1rem;
     }
     .container ul{
-        gap: 20px;
+        gap: 10px;
     }
     .container a{
         font-size: 10px;
