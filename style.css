@@ -7,18 +7,18 @@
 }
 
 nav{
-    padding : 25px 100px;
+    padding: 25px 100px;
     height: 20vh;
     background-color: black;
-    display : flex;
+    display: flex;
     justify-content:space-between;
     align-items: center;
 }
 
 .logo {
-    font-size : 4rem;
+    font-size: 4rem;
     font-weight: 900;
-    color : #fff;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -34,7 +34,7 @@ nav{
 
 .container ul{
     display: flex;
-    gap : 20px;
+    gap: 20px;
 }
 
 .container li{
@@ -172,26 +172,25 @@ main p:hover{
 
 /* this for responsive */
 @media screen and (max-width: 600px){
-    *{
-        font-size: normal;
-    }
     body{
         background-color: black;
     }
     nav,main{
-        padding : 15px 25px;
+        padding: 15px 25px;
         background-color: black;
         display: flex;
     }
     nav ul{
         flex-direction:row;
     }
-    .logo,
+    .logo{
+         font-size: 1rem;
+    }
     main h1{
         font-size: 2rem;
     }
     .container ul{
-        gap : 20px;
+        gap: 10px;
     }
     .container a{
         font-size: 10px;
@@ -203,7 +202,7 @@ main p:hover{
         font-size: 1.5rem;
     }
     main p{
-        font-size: small;
+        font-size: large;
     }
     #a1,#m1,
     .aboutme{
