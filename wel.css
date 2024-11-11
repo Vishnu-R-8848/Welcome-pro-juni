@@ -148,9 +148,6 @@ footer a:hover{
 }
 
 @media screen and (max-width: 600px){
-    *{
-        font-size: normal;
-    }
     nav{
         padding: 15px 25px;
         display: flex;
@@ -159,7 +156,7 @@ footer a:hover{
         flex-direction:row;
     }
     .logo{
-         font-size: 1.6rem;
+         font-size: 1.5rem;
     }
     .container ul{
         gap: 10px;
