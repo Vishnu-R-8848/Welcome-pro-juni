@@ -16,7 +16,7 @@ nav{
 
 #s6{
     display: inline-block;/*this for the animation working*/
-    animation: logorotate 12s linear 0.5s infinite;
+    animation: logorotate 5s linear 0.5s infinite;
 }
 
 .logo {
